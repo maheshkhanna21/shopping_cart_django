@@ -1,0 +1,288 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <link rel="stylesheet" href="{% static 'CSS/style.css' %}">
+   <link rel="stylesheet" href="{% static 'CSS/style2.css' %}">
+    <title>index!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"><div class="pd-wrap">
+    {% comment %} <link rel="stylesheet" href="{% static 'CSS/style.css' %}"> {% endcomment %}
+    <!-- section product details -->
+   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    <title>product  details!</title>
+  
+
+
+   <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Bootstrap Simple Success Confirmation Popup</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+  <style>
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+  </style>
+  <body>
+    
+
+     <nav class="navbar mt-2">
+        <div class="navbar-container">
+            <input type="checkbox" name="" id="checkbox">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="index">Home</a></li>
+                <li><a href="addcart">Shop</a></li>
+                <li><a href="#news">Blog</a></li>
+                <li><a href="contact">Contact</a></li>
+                <li><a href="logout">Logout</a></li>
+            </ul>
+            <div class="logo">
+                <img src="https://i.postimg.cc/TP6JjSTt/logo.webp" alt="">
+            </div>
+        </div>
+    </nav> 
+
+
+    <!-- main body starts here -->
+
+    {% block content %}{% endblock content %}
+
+    <!-- main body ends here -->
+
+    <footer>
+        <div class="footer-container container">
+            <div class="content_1">
+                <img src="https://i.postimg.cc/htGyQ4JB/footer-logo.png" alt="logo">
+                <p>The customer is at the heart of our<br>unique business model, which includes<br>design.</p>
+                <img src="https://i.postimg.cc/Nj9dgJ98/cards.png" alt="cards">
+            </div>
+            <div class="content_2">
+                <h4>SHOPPING</h4>
+                <a href="#sellers">Clothing Store</a>
+                <a href="#sellers">Trending Shoes</a>
+                <a href="#sellers">Accessories</a>
+                <a href="#sellers">Sale</a>
+            </div>
+            <div class="content_3">
+                <h4>SHOPPING</h4>
+                <a href="#">Contact Us</a>
+                <a href="#" target="_blank">Payment Method</a>
+                <a href="#" target="_blank">Delivery</a>
+                <a href="#" target="_blank">Return and Exchange</a>
+            </div>
+            <div class="content_4">
+                <h4>NEWLETTER</h4>
+                <p>Be the first to know about new<br>arrivals, look books, sales & promos!</p>
+                <div class="f-mail">
+                    <input type="email" placeholder="Your Email">
+                    <i class='bx bx-envelope'></i>
+                </div>
+                <hr>
+            </div>
+        </div>
+        <div class="f-design">
+            <div class="f-design-txt container">
+                <p>Design and Code by code error to array</p>
+            </div>
+        </div>
+    </footer>
+
+   
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <script>
+        jQuery(document).ready(function($){
+	var $form_modal = $('.cd-user-modal'),
+		$form_login = $form_modal.find('#cd-login'),
+		$form_signup = $form_modal.find('#cd-signup'),
+		$form_forgot_password = $form_modal.find('#cd-reset-password'),
+		$form_modal_tab = $('.cd-switcher'),
+		$tab_login = $form_modal_tab.children('li').eq(0).children('a'),
+		$tab_signup = $form_modal_tab.children('li').eq(1).children('a'),
+		$forgot_password_link = $form_login.find('.cd-form-bottom-message a'),
+		$back_to_login_link = $form_forgot_password.find('.cd-form-bottom-message a'),
+		$main_nav = $('.main-nav');
+
+	//open modal
+	$main_nav.on('click', function(event){
+
+		if( $(event.target).is($main_nav) ) {
+			// on mobile open the submenu
+			$(this).children('ul').toggleClass('is-visible');
+		} else {
+			// on mobile close submenu
+			$main_nav.children('ul').removeClass('is-visible');
+			//show modal layer
+			$form_modal.addClass('is-visible');	
+			//show the selected form
+			( $(event.target).is('.cd-signup') ) ? signup_selected() : login_selected();
+		}
+
+	});
+
+	//close modal
+	$('.cd-user-modal').on('click', function(event){
+		if( $(event.target).is($form_modal) || $(event.target).is('.cd-close-form') ) {
+			$form_modal.removeClass('is-visible');
+		}	
+	});
+	//close modal when clicking the esc keyboard button
+	$(document).keyup(function(event){
+    	if(event.which=='27'){
+    		$form_modal.removeClass('is-visible');
+	    }
+    });
+
+	//switch from a tab to another
+	$form_modal_tab.on('click', function(event) {
+		event.preventDefault();
+		( $(event.target).is( $tab_login ) ) ? login_selected() : signup_selected();
+	});
+
+	//hide or show password
+	$('.hide-password').on('click', function(){
+		var $this= $(this),
+			$password_field = $this.prev('input');
+		
+		( 'password' == $password_field.attr('type') ) ? $password_field.attr('type', 'text') : $password_field.attr('type', 'password');
+		( 'Hide' == $this.text() ) ? $this.text('Show') : $this.text('Hide');
+		//focus and move cursor to the end of input field
+		$password_field.putCursorAtEnd();
+	});
+
+	//show forgot-password form 
+	$forgot_password_link.on('click', function(event){
+		event.preventDefault();
+		forgot_password_selected();
+	});
+
+	//back to login from the forgot-password form
+	$back_to_login_link.on('click', function(event){
+		event.preventDefault();
+		login_selected();
+	});
+
+	function login_selected(){
+		$form_login.addClass('is-selected');
+		$form_signup.removeClass('is-selected');
+		$form_forgot_password.removeClass('is-selected');
+		$tab_login.addClass('selected');
+		$tab_signup.removeClass('selected');
+	}
+
+	function signup_selected(){
+		$form_login.removeClass('is-selected');
+		$form_signup.addClass('is-selected');
+		$form_forgot_password.removeClass('is-selected');
+		$tab_login.removeClass('selected');
+		$tab_signup.addClass('selected');
+	}
+
+	function forgot_password_selected(){
+		$form_login.removeClass('is-selected');
+		$form_signup.removeClass('is-selected');
+		$form_forgot_password.addClass('is-selected');
+	}
+
+	//REMOVE THIS - it's just to show error messages 
+	$form_login.find('input[type="submit"]').on('click', function(event){
+		event.preventDefault();
+		$form_login.find('input[type="email"]').toggleClass('has-error').next('span').toggleClass('is-visible');
+	});
+	$form_signup.find('input[type="submit"]').on('click', function(event){
+		event.preventDefault();
+		$form_signup.find('input[type="email"]').toggleClass('has-error').next('span').toggleClass('is-visible');
+	});
+
+
+	//IE9 placeholder fallback
+	//credits http://www.hagenburger.net/BLOG/HTML5-Input-Placeholder-Fix-With-jQuery.html
+	if(!Modernizr.input.placeholder){
+		$('[placeholder]').focus(function() {
+			var input = $(this);
+			if (input.val() == input.attr('placeholder')) {
+				input.val('');
+		  	}
+		}).blur(function() {
+		 	var input = $(this);
+		  	if (input.val() == '' || input.val() == input.attr('placeholder')) {
+				input.val(input.attr('placeholder'));
+		  	}
+		}).blur();
+		$('[placeholder]').parents('form').submit(function() {
+		  	$(this).find('[placeholder]').each(function() {
+				var input = $(this);
+				if (input.val() == input.attr('placeholder')) {
+			 		input.val('');
+				}
+		  	})
+		});
+	}
+
+});
+
+
+//credits https://css-tricks.com/snippets/jquery/move-cursor-to-end-of-textarea-or-input/
+jQuery.fn.putCursorAtEnd = function() {
+	return this.each(function() {
+    	// If this function exists...
+    	if (this.setSelectionRange) {
+      		// ... then use it (Doesn't work in IE)
+      		// Double the length because Opera is inconsistent about whether a carriage return is one character or two. Sigh.
+      		var len = $(this).val().length * 2;
+      		this.setSelectionRange(len, len);
+    	} else {
+    		// ... otherwise replace the contents with itself
+    		// (Doesn't work in Google Chrome)
+      		$(this).val($(this).val());
+    	}
+	});
+};
+    </script>
+  </body>
+</html>
+    

@@ -1,0 +1,27 @@
+{% extends "layouts/main.html" %}
+
+{% block content %}
+
+<form action="contact_form" method="POST">
+{% csrf_token %}
+    <div class="form">
+        <div class="form-txt">
+            <h4>INFORMATION</h4>
+            <h1>Contact Us</h1>
+            <span>As you might expect of a company that began as a high-end interiors contractor, we pay strict
+                attention.</span>
+            <h3>USA</h3>
+            <p>putligharh navpreet hospital 801<br>+43 982-314-0958</p>
+            <h3>India</h3>
+            <p>Amritsar, Lorem ipsum dolor sit.<br>143001</p>
+        </div>
+        <div class="form-details">
+            <input type="text" name="name" id="name" placeholder="Name" required>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+            <input type="text" name="mobile" id="email" placeholder="Mobile Number" required>
+            <textarea name="description" id="message" cols="52" rows="7" placeholder="Message" required></textarea>
+            <button type="submit">SEND MESSAGE</button>
+        </div>
+    </div>
+</form>
+{% endblock content %}

@@ -1,0 +1,29 @@
+<html>
+    <head>
+    </head>
+
+    <body>
+        <h1>
+            {% comment %} my first name is {{ first_name }}
+            
+        
+        </h1>
+        <h2>my middle_name is {{middle_name}}</h2>
+        <h3>my last name is {{last_name}}</h3> {% endcomment %}
+        
+
+
+        {% for marks in comp_language %}
+            <h1>{{marks}}</h1>
+        {% endfor %}
+
+
+
+        <select> 
+            {% for student in students_list %}
+            <option>{{student}}</option>
+            {% endfor %}
+        </select>
+    </body>
+
+</html>
